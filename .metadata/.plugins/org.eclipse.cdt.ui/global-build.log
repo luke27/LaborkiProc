@@ -1,0 +1,975 @@
+21:40:50 **** Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= Zadanie1.cpp
+StaticLibrary  : libstdc++.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi/libZadanie1.so
+21:45:13 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+Install        : libZadanie1.so => libs/armeabi/libZadanie1.so
+21:55:34 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Zadanie1.cpp
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi/libZadanie1.so
+21:56:05 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+StaticLibrary  : libstdc++.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi/libZadanie1.so
+21:56:17 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi/libZadanie1.so
+21:56:22 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+StaticLibrary  : libstdc++.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi/libZadanie1.so
+22:00:13 **** Clean-only build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" clean 
+Clean: Zadanie1 [armeabi-v7a]
+Clean: android_native_app_glue [armeabi-v7a]
+Clean: stlport_shared [armeabi-v7a]
+Clean: stlport_static [armeabi-v7a]
+22:02:03 **** Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Zadanie1.cpp
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:02:38 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+In file included from jni/AndroidDevice.cpp:8:0:
+jni/AndroidDevice.h:15:18: fatal error: logi.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/AndroidDevice.o] Error 1
+22:04:50 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= Zadanie1.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:13:30 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:18:03 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ x86  : Zadanie1 <= android_main.cpp
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+"Compile x86  : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:19:47 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:21:00 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:21:47 **** Clean-only build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" clean 
+Clean: Zadanie1 [armeabi-v7a]
+Clean: android_native_app_glue [armeabi-v7a]
+Clean: stlport_shared [armeabi-v7a]
+Clean: stlport_static [armeabi-v7a]
+22:21:52 **** Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:23:42 **** Clean-only build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" clean 
+Clean: Zadanie1 [armeabi-v7a]
+Clean: android_native_app_glue [armeabi-v7a]
+Clean: stlport_shared [armeabi-v7a]
+Clean: stlport_static [armeabi-v7a]
+Clean: Zadanie1 [x86]
+Clean: android_native_app_glue [x86]
+Clean: stlport_shared [x86]
+Clean: stlport_static [x86]
+22:23:47 **** Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= android_main.cpp
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+"Compile x86  : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:24:11 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:27:06 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:27:59 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:28:51 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:29:42 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:31:48 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:32:20 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:34:34 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= android_main.cpp
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+"Compile x86  : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:36:29 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= android_main.cpp
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:38:04 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+jni/AndroidDevice.cpp:168:33: error: invalid suffix "f" on integer constant
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/AndroidDevice.o] Error 1
+22:38:52 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:49:55 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:53:03 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+22:57:32 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+"Compile++ x86  : Zadanie1 <= android_main.cpp
+"Compile++ x86  : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+19:26:19 **** Clean-only build of configuration Default for project DevilRun ****
+bash "E:\\UJ\\DevilRun\\DevilRun\\proj.android/build_native.sh" NDK_DEBUG=1 V=1 clean 
+cygwin warning:
+  MS-DOS style path detected: E:\UJ\DevilRun\DevilRun\proj.android
+  Preferred POSIX equivalent is: /cygdrive/e/UJ/DevilRun/DevilRun/proj.android
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+NDK_ROOT = /cygdrive/d/UJ/Android/android-ndk-r8c
+COCOS2DX_ROOT = /cygdrive/d/UJ/Android/cocos2d
+APP_ROOT = /cygdrive/e/UJ/DevilRun/DevilRun/proj.android/..
+APP_ANDROID_ROOT = /cygdrive/e/UJ/DevilRun/DevilRun/proj.android
+Using prebuilt externals
+E:\UJ\DevilRun\DevilRun\proj.android/build_native.sh: line 90: /cygdrive/d/UJ/Android/android-ndk-r8c/ndk-build: No such file or directory
+19:27:33 **** Build of configuration Default for project DevilRun ****
+bash "E:\\UJ\\DevilRun\\DevilRun\\proj.android/build_native.sh" NDK_DEBUG=1 V=1 all 
+cygwin warning:
+  MS-DOS style path detected: E:\UJ\DevilRun\DevilRun\proj.android
+  Preferred POSIX equivalent is: /cygdrive/e/UJ/DevilRun/DevilRun/proj.android
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+NDK_ROOT = /cygdrive/d/UJ/Android/android-ndk-r8c
+COCOS2DX_ROOT = /cygdrive/d/UJ/Android/cocos2d
+APP_ROOT = /cygdrive/e/UJ/DevilRun/DevilRun/proj.android/..
+APP_ANDROID_ROOT = /cygdrive/e/UJ/DevilRun/DevilRun/proj.android
+Using prebuilt externals
+E:\UJ\DevilRun\DevilRun\proj.android/build_native.sh: line 90: /cygdrive/d/UJ/Android/android-ndk-r8c/ndk-build: No such file or directory
+19:19:19 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/x86/
+Install        : libZadanie1.so => libs/x86/libZadanie1.so
+19:20:04 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+"Compile thumb : android_native_app_glue <= android_native_app_glue.c
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:23:58 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:25:08 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:27:05 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:35:31 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:38:51 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:40:18 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:47:12 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:49:35 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:51:22 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:51:56 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+19:52:35 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:01:11 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:02:35 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:09:55 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:12:05 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:49:33 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:31:01 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+jni/AssetManager.cpp: In constructor 'PG::AssetManager::AssetManager()':
+jni/AssetManager.cpp:18:30: error: invalid use of incomplete type 'struct android_app'
+jni/AssetManager.cpp:10:15: error: forward declaration of 'struct android_app'
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/AssetManager.o] Error 1
+21:37:39 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/android_main.o: in function android_main:jni/android_main.cpp:33: error: undefined reference to 'PG::AssetManager::closeAssetFile(AAsset*)'
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/AssetManager.o: in function PG::AssetManager::AssetManager():jni/AssetManager.cpp:20: error: undefined reference to 'PG::_state'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi-v7a/libZadanie1.so] Error 1
+21:38:03 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/android_main.o: in function android_main:jni/android_main.cpp:33: error: undefined reference to 'PG::AssetManager::closeAssetFile(AAsset*)'
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/AssetManager.o: in function PG::AssetManager::AssetManager():jni/AssetManager.cpp:20: error: undefined reference to 'PG::_state'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi-v7a/libZadanie1.so] Error 1
+21:38:18 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/android_main.o: in function android_main:jni/android_main.cpp:33: error: undefined reference to 'PG::AssetManager::closeAssetFile(AAsset*)'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi-v7a/libZadanie1.so] Error 1
+21:39:39 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:39:51 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:01:29 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:25:48 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:33:34 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+jni/android_main.cpp: In function 'void android_main(android_app*)':
+jni/android_main.cpp:32:2: error: 'Shader' was not declared in this scope
+jni/android_main.cpp:32:10: error: 'shader' was not declared in this scope
+jni/android_main.cpp:32:23: error: expected type-specifier before 'Shader'
+jni/android_main.cpp:32:23: error: expected ';' before 'Shader'
+jni/android_main.cpp:34:9: error: type '<type error>' argument given to 'delete', expected pointer
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/android_main.o] Error 1
+20:33:58 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:37:21 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:38:18 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:42:03 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:43:07 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:43:35 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:44:24 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:44:42 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:48:26 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+20:49:43 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:37:21 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/AndroidDevice.o: in function PG::AndroidDevice::drawFrame():jni/AndroidDevice.cpp:200: error: undefined reference to 'PG::Zad1Rend::Zad1Rend()'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi-v7a/libZadanie1.so] Error 1
+21:38:00 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+e:/androidsdk/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld.exe: ./obj/local/armeabi-v7a/objs/Zadanie1/AndroidDevice.o: in function PG::AndroidDevice::drawFrame():jni/AndroidDevice.cpp:200: error: undefined reference to 'PG::Zad1Rend::Zad1Rend()'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi-v7a/libZadanie1.so] Error 1
+21:38:23 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:38:49 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:39:48 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:40:29 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:41:01 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:42:18 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:44:31 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:46:11 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:47:31 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:47:51 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:49:18 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:51:11 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:53:58 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:56:42 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+jni/Shader.cpp: In constructor 'PG::Shader::Shader(char const*, char const*, int)':
+jni/Shader.cpp:27:11: error: invalid conversion from 'char const*' to 'GLuint {aka unsigned int}' [-fpermissive]
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/Shader.o] Error 1
+21:57:19 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:57:57 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:58:22 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:00:45 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+jni/Shader.cpp: In member function 'void PG::Shader::loadAssetShader()':
+jni/Shader.cpp:210:18: error: invalid conversion from 'char const*' to 'GLchar {aka char}' [-fpermissive]
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/Shader.o] Error 1
+22:03:32 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+jni/Shader.cpp: In member function 'void PG::Shader::loadAssetShader()':
+jni/Shader.cpp:210:22: error: invalid conversion from 'char const*' to 'GLchar {aka char}' [-fpermissive]
+make: *** [obj/local/armeabi-v7a/objs/Zadanie1/Shader.o] Error 1
+22:04:03 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:04:46 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:05:16 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:05:19 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:05:25 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:05:45 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:06:41 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:08:59 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:33:15 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:36:40 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:37:40 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:38:09 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:38:30 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:38:38 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:39:06 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:39:27 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:39:40 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:39:43 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:39:55 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+22:40:03 **** Incremental Build of configuration Default for project Zadanie1 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so

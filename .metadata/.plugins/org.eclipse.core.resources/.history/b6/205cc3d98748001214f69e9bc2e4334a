@@ -1,0 +1,3 @@
+#version 100
+
+vec3  a;

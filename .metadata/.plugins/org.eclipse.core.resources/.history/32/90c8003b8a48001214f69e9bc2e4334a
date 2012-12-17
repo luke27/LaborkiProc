@@ -1,0 +1,13 @@
+#pragma once
+#include "Shader.h"
+using namespace PG;
+
+class IRenderer
+{
+public:
+	virtual void render() = 0;
+	virtual ~IRenderer()
+	{}
+protected:
+	Shader *shader;
+};

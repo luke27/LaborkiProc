@@ -1,0 +1,28 @@
+/*
+ * Zad1Rend.cpp
+ *
+ *  Created on: 17-12-2012
+ *      Author: Luke
+ */
+
+#include "Zad1Rend.h"
+
+namespace PG {
+
+Zad1Rend::Zad1Rend()
+{
+	shader = new Shader();
+}
+
+Zad1Rend::~Zad1Rend()
+{
+	delete shader;
+}
+
+} /* namespace PG */
+
+
+void PG::Zad1Rend::render()
+{
+
+}

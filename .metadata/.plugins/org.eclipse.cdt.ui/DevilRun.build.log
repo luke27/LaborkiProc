@@ -1,0 +1,17 @@
+19:27:33 **** Build of configuration Default for project DevilRun ****
+bash "E:\\UJ\\DevilRun\\DevilRun\\proj.android/build_native.sh" NDK_DEBUG=1 V=1 all 
+cygwin warning:
+  MS-DOS style path detected: E:\UJ\DevilRun\DevilRun\proj.android
+  Preferred POSIX equivalent is: /cygdrive/e/UJ/DevilRun/DevilRun/proj.android
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+NDK_ROOT = /cygdrive/d/UJ/Android/android-ndk-r8c
+COCOS2DX_ROOT = /cygdrive/d/UJ/Android/cocos2d
+APP_ROOT = /cygdrive/e/UJ/DevilRun/DevilRun/proj.android/..
+APP_ANDROID_ROOT = /cygdrive/e/UJ/DevilRun/DevilRun/proj.android
+Using prebuilt externals
+E:\UJ\DevilRun\DevilRun\proj.android/build_native.sh: line 90: /cygdrive/d/UJ/Android/android-ndk-r8c/ndk-build: No such file or directory
+
+19:27:34 Build Finished (took 262ms)
+

@@ -1,0 +1,24 @@
+/*
+ * Zad1Rend.cpp
+ *
+ *  Created on: 17-12-2012
+ *      Author: Luke
+ */
+
+#include "Zad1Rend.h"
+
+namespace PG {
+
+Zad1Rend::Zad1Rend() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Zad1Rend::~Zad1Rend() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace PG */
+
+
+void Zad1Rend::render()

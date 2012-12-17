@@ -1,0 +1,36 @@
+/*
+ * Zad1Rend.cpp
+ *
+ *  Created on: 17-12-2012
+ *      Author: Luke
+ */
+
+#include "Zad1Rend.h"
+
+namespace PG {
+
+Zad1Rend::Zad1Rend()
+{
+	shader = new Shader("z1.vert", "z1.frag", 1);
+}
+
+Zad1Rend::~Zad1Rend()
+{
+	delete shader;
+}
+
+} /* namespace PG */
+
+
+void PG::Zad1Rend::render()
+{
+	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	glViewport(0, 0, 800, 480);
+
+	shader->use();
+
+
+	shader->useOff();
+}

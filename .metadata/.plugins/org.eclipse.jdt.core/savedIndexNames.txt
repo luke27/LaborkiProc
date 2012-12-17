@@ -1,0 +1,9 @@
+INDEX VERSION 1.126+E:\UJ\Procesory graficzne\.metadata\.plugins\org.eclipse.jdt.core
+3714156615.index
+568048281.index
+2578782259.index
+2200505517.index
+2043998821.index
+2494462204.index
+1822648142.index
+449950094.index
