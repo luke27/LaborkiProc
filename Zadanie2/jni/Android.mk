@@ -4,6 +4,11 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE    := Zadanie1
 LOCAL_SRC_FILES := android_main.cpp \
+				Vector2.cpp \
+				Vector3.cpp \
+				Vector4.cpp \
+				Matrix3.cpp \
+				Matrix4.cpp \
 				AndroidDevice.cpp \
 				AssetManager.cpp \
 				Shader.cpp \

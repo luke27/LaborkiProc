@@ -1323,3 +1323,6 @@ Caused by: java.lang.InterruptedException
 
 !ENTRY org.eclipse.cdt.core 1 0 2013-01-09 20:46:01.507
 !MESSAGE Indexed 'Zadanie2' (5 sources, 202 headers) in 3,15 sec: 14 681 declarations; 25 343 references; 0 unresolved inclusions; 0 syntax errors; 16 unresolved names (0,04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-01-09 21:04:09.221
+!MESSAGE Indexed 'Zadanie2' (11 sources, 228 headers) in 1,92 sec: 16 051 declarations; 29 766 references; 0 unresolved inclusions; 0 syntax errors; 4 unresolved names (0,01%)

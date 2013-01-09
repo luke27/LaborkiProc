@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Zad1Rend.h"
+#include <GLES2/gl2.h>
 
 namespace PG {
 
@@ -43,19 +44,34 @@ void PG::Zad1Rend::render()
 	glGenBuffers(1, VBO);
 	glesError("glGenBuffers");
 
-	GLfloat verts[] = {-.25f, 0.0f, 0.0f,
-					   0.0f, -.25f, 0.0f,
-					   .25f, .0f, 0.0f};
+	GLfloat verts[] = {0.0f, 1.0f, 0.0f,
+			1.0f, -1.0f, 1.0f,
+			-1.0f, -1.0f, 1.0f,
+
+			0.0f, 1.0f, 0.0f,
+			1.0f, -1.0f, -1.0f,
+			1.0f, -1.0f, 1.0f,
+
+			0.0f, 1.0f, 0.0f,
+			1.0f, -1.0f, -1.0f,
+			-1.0f, -1.0f, -1.0f,
+
+			0.0f, 1.0f, 0.0f,
+			-1.0f, -1.0f, 1.0f,
+			-1.0f, -1.0f, -1.0f,
+	};
 
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 9, verts, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 36, verts, GL_STATIC_DRAW);
 	posLoc = glGetAttribLocation(shader->getProgram(), "position");
 	glVertexAttribPointer(posLoc, 3, GL_FLOAT, GL_FALSE, 0, NULL);
 	glEnableVertexAttribArray(posLoc);
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
-	glDrawArrays(GL_TRIANGLES, 0, 9);
+	glDrawArrays(GL_TRIANGLES, 0, 36);
+
+	glesError("OpenGL ES rendering state");
 
 
 	glDeleteBuffers(1, VBO);

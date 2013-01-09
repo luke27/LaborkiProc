@@ -1030,3 +1030,166 @@ Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armea
 StaticLibrary  : libandroid_native_app_glue.a
 SharedLibrary  : libZadanie1.so
 Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:04:02 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:04:53 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:10:06 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:27:24 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:28:54 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:29:33 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:31:43 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:37:13 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+E:/AndroidSDK/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/windows/bin/arm-linux-androideabi-strip: unable to rename './libs/armeabi-v7a/libZadanie1.so'; reason: File exists
+make: *** [libs/armeabi-v7a/libZadanie1.so] Error 1
+make: *** Deleting file `libs/armeabi-v7a/libZadanie1.so'
+21:37:37 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:39:04 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= AndroidDevice.cpp
+"Compile++ thumb : Zadanie1 <= AssetManager.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
+21:40:04 **** Incremental Build of configuration Default for project Zadanie2 ****
+"E:\\AndroidSDK\\android-ndk-r8c\\ndk-build.cmd" all 
+"Compile++ thumb : Zadanie1 <= android_main.cpp
+"Compile++ thumb : Zadanie1 <= Vector2.cpp
+"Compile++ thumb : Zadanie1 <= Vector3.cpp
+"Compile++ thumb : Zadanie1 <= Vector4.cpp
+"Compile++ thumb : Zadanie1 <= Matrix3.cpp
+"Compile++ thumb : Zadanie1 <= Matrix4.cpp
+"Compile++ thumb : Zadanie1 <= Shader.cpp
+"Compile++ thumb : Zadanie1 <= Zad1Rend.cpp
+Prebuilt       : libstlport_static.a <= <NDK>/sources/cxx-stl/stlport/libs/armeabi-v7a/
+StaticLibrary  : libandroid_native_app_glue.a
+SharedLibrary  : libZadanie1.so
+Install        : libZadanie1.so => libs/armeabi-v7a/libZadanie1.so
