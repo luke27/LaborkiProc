@@ -30,8 +30,9 @@ public:
 	Zad1Rend();
 	void render();
 	virtual ~Zad1Rend();
-	GLuint VBO[1];
+	GLuint VBO[4];
 	GLuint posLoc;
+	GLuint colLoc;
 };
 
 } /* namespace PG */

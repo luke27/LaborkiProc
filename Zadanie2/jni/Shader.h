@@ -74,6 +74,8 @@ public:
 	 * destruktor usuwa shadery
 	 */
 	~Shader();
+
+	GLuint program;
 private:
 	/*!
 	 * identyfikator shadera
@@ -86,7 +88,7 @@ private:
 	/*!
 	 * obiekt programu
 	 */
-	GLuint program;
+
 	/*!
 	 * ścieżka pliku
 	 */

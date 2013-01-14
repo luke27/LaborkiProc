@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Zad1Rend.h"
+#include "Log.h"
 #include <GLES2/gl2.h>
 
 namespace PG {
@@ -35,46 +36,103 @@ Zad1Rend::~Zad1Rend()
 
 void PG::Zad1Rend::render()
 {
-	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+	glClearColor(0.5f, 0.5f, 0.5f, 0.5f);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	glViewport(0, 0, 480, 480);
 
 	shader->use();
-	glGenBuffers(1, VBO);
+	glGenBuffers(3, VBO);
 	glesError("glGenBuffers");
 
-	GLfloat verts[] = {0.0f, 1.0f, 0.0f,
-			1.0f, -1.0f, 1.0f,
-			-1.0f, -1.0f, 1.0f,
+//	GLfloat verts[] = {-0.25f, 0.25f, 0.0f,
+//			0.25f, 0.25f, 0.0f,
+//			-0.25f, 0.25f, 0.0f,
 
-			0.0f, 1.0f, 0.0f,
-			1.0f, -1.0f, -1.0f,
-			1.0f, -1.0f, 1.0f,
+//			0.0f, 0.5f, 0.0f,
+//			0.5f, -0.5f, -0.5f,
+//			0.5f, -0.5f, 0.5f,
+//
+//			0.0f, 0.5f, 0.0f,
+//			0.5f, -0.5f, -0.5f,
+//			-0.5f, -0.5f, -0.5f,
+//
+//			0.0f, 0.5f, 0.0f,
+//			-0.5f, -0.5f, 0.5f,
+//			-0.5f, -0.5f, -0.5f,
+//	};
 
-			0.0f, 1.0f, 0.0f,
-			1.0f, -1.0f, -1.0f,
-			-1.0f, -1.0f, -1.0f,
 
-			0.0f, 1.0f, 0.0f,
-			-1.0f, -1.0f, 1.0f,
-			-1.0f, -1.0f, -1.0f,
-	};
+	 float vertices[] = { // 5 vertices of the pyramid in (x,y,z)
+	      -1.0f, -1.0f, -1.0f,  // 0. left-bottom-back
+	       1.0f, -1.0f, -1.0f,  // 1. right-bottom-back
+	       1.0f, -1.0f,  1.0f,  // 2. right-bottom-front
+	      -1.0f, -1.0f,  1.0f,  // 3. left-bottom-front
+	       0.0f,  1.0f,  0.0f   // 4. top
+	   };
 
+	  float colors[] = {  // Colors of the 5 vertices in RGBA
+	      0.0f, 0.0f, 1.0f, 1.0f,  // 0. blue
+	      0.0f, 1.0f, 0.0f, 1.0f,  // 1. green
+	      0.0f, 0.0f, 1.0f, 1.0f,  // 2. blue
+	      0.0f, 1.0f, 0.0f, 1.0f,  // 3. green
+	      1.0f, 0.0f, 0.0f, 1.0f   // 4. red
+	   };
+
+	   int indices[] = { // Vertex indices of the 4 Triangles
+	      2, 4, 3,   // front face (CCW)
+	      1, 4, 2,   // right face
+	      0, 4, 1,   // back face
+	      4, 0, 3    // left face
+	   };
+
+	   LOGI("GLES allocated arrays");
+
+//	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
+//	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 9, verts, GL_STATIC_DRAW);
+//	posLoc = glGetAttribLocation(shader->getProgram(), "position");
+//	glVertexAttribPointer(posLoc, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+//	glEnableVertexAttribArray(posLoc);
+//
+//	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
+//	glDrawArrays(GL_TRIANGLES, 0, 3);
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 36, verts, GL_STATIC_DRAW);
-	posLoc = glGetAttribLocation(shader->getProgram(), "position");
+	glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 15, vertices, GL_STATIC_DRAW);
+	posLoc = glGetAttribLocation(shader->program, "position");
 	glVertexAttribPointer(posLoc, 3, GL_FLOAT, GL_FALSE, 0, NULL);
-	glEnableVertexAttribArray(posLoc);
+	glesError("GLES vertex buffer");
+
+	glBindBuffer(GL_ARRAY_BUFFER, VBO[1]);
+	glesError("GLES color buffer BindBuffer");
+	glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 20, colors, GL_STATIC_DRAW);
+	glesError("GLES color buffer BufferData");
+	colLoc = glGetAttribLocation(shader->program, "color");
+	glesError("GLES color GAL");
+	glVertexAttribPointer(colLoc, 4, GL_FLOAT, GL_FALSE, 0, NULL);
+	glesError("GLES color VATP");
+	glesError("GLES color buffer");
+
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, VBO[2]);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(int) * 12, indices, GL_STATIC_DRAW);
+
+
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO[0]);
-	glDrawArrays(GL_TRIANGLES, 0, 36);
+	glEnableVertexAttribArray(posLoc);
+	glVertexAttribPointer(posLoc, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+
+	glBindBuffer(GL_ARRAY_BUFFER, VBO[1]);
+	glEnableVertexAttribArray(colLoc);
+	glVertexAttribPointer(colLoc, 4, GL_FLOAT, GL_FALSE, 0, NULL);
+
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, VBO[2]);
+	glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_INT, NULL);
 
 	glesError("OpenGL ES rendering state");
 
 
-	glDeleteBuffers(1, VBO);
+	glDeleteBuffers(3, VBO);
 
 
 	shader->useOff();
